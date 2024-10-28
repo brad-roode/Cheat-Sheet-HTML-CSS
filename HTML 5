@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev_Brad - Coding Cheat Sheet</title>
+    <link rel="stylesheet" href="./Resources - P2/Index.css">
+</head>
+<body>
+    <!-- Header with page ancors-->
+<h1>HTML5 & CSS Cheat Sheet
+</h1>
+<div class="text">
+    <p>Welcome to your quick reference guide for HTML5 and CSS coding! Whether you're a beginner just starting out or a seasoned developer in need of a handy reminder, this cheat sheet covers the essential elements, tags, properties, and styles you'll use in web development. From structuring your web pages with HTML5 to styling and enhancing them with CSS, this guide aims to keep the basics at your fingertips for efficient coding and design.</p>
+</div>
+    <!-- Table HTML items (basic layout, table functions)-->
+<div>
+    <h2>HTML 5 Basics</h2>
+</div>
+    <table>
+    <tbody>
+        <!-- Header -->
+        <tr>
+            <td>
+                <h4>Header</h4>
+            </td>
+            <td>
+                <p class="Table text">The header typically contains introductory content, navigational links, or branding elements like logos and titles.</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div id="code">
+                    <!-- HTML Code for "Header" -->
+                    <pre><code>
+                    &lt;header&gt;
+                        &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+                        &lt;nav&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a href=&quot;#home&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/nav&gt;
+                    &lt;/header&gt;
+                    </code></pre>
+                </div>
+            </td>
+        </tr>
+        <!-- Body -->
+        <tr>
+            <td>
+                <h4>Body</h4>
+            </td>
+            <td>
+                <p class="Table text">The body section holds the main content of your webpage, such as text, images, and other elements that are visible to the user.</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div id="code">
+                    <!-- HTML Code for "Body" -->
+                    <pre><code>
+                    &lt;body&gt;
+                        &lt;h2&gt;About Us&lt;/h2&gt;
+                        &lt;p&gt;This is where your main content goes. You can add paragraphs, images, videos, and more.&lt;/p&gt;
+                    &lt;/body&gt;
+                     </code></pre>
+                 </div>
+            </td>
+        </tr>
+         <!-- Footer -->
+         <tr>
+            <td>
+                <h4>Footer</h4>
+            </td>
+            <td>
+                <p class="Table text">The footer typically contains information like copyright details, contact information, or additional navigation links.</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">    
+                <div id="code"><!-- HTML Code for "Footer" -->
+                    <pre><code>
+                     &lt;footer&gt;
+                      &lt;p&gt;&amp;copy; 2024 My Website. All rights reserved.&lt;/p&gt;
+                      &lt;p&gt;Contact us at info@mywebsite.com&lt;/p&gt;
+                     &lt;/footer&gt;
+                    </code></pre>
+                 </div>
+            </td>
+        </tr>
+</tbody>
+</table>
+<br>
+<br>
+    <!-- Table CSS items (layout, typography, colors)-->
+    <div>
+        <h2>CSS Basics</h2>
+    </div>
+    <table>
+        <tbody>
+        <!-- Selectors -->
+         <tr>
+            <td>
+                <h4>Selectors</h4>
+            </td>
+            <td>
+                <p class="Table text">Selectors are used to target the HTML elements you want to style. The most common types are element, class, and ID selectors.</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div id="code">
+                    <!-- CSS Code for "Selectors" -->
+                    <pre><code>                        
+                    /* Element Selector */
+                    h1 {
+                        color: blue;
+                    }
+                     
+                    /* Class Selector */
+                    .intro {
+                        font-size: 18px;
+                    }
+                        
+                    /* ID Selector */
+                    #header {
+                        background-color: #f0f0f0;
+                    }
+                    </code></pre>
+                </div>
+            </td>
+        </tr>
+        <!-- Colors -->
+        <tr>
+            <td>
+                <h4>Colors</h4>
+            </td>
+            <td>
+                <p class="Table text">CSS allows you to define colors using keywords, HEX values, RGB, or HSL.</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div id="code">
+                    <!-- CSS Code for "Colors" -->
+                    <pre><code>
+                    /* Using a keyword */
+                    body {
+                        background-color: white;
+                    }
+                            
+                    /* Using a HEX value */
+                    h1 {
+                        color: #333333;
+                    }
+                            
+                    /* Using RGB */
+                    p {
+                        color: rgb(255, 99, 71);
+                    }
+                    </code></pre>
+                </div>
+            </td>
+        </tr>
+        <!-- Fonts and Text Styling -->
+        <tr>
+            <td>
+                <h4>Fonts and Text Styling</h4>
+            </td>
+            <td>
+                <p class="Table text">You can style text using properties like font-family, font-size, font-weight, and text-align.</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div id="code">
+                    <!-- CSS Code for "Fonts and Text Styling" -->
+                    <pre><code>
+                    body {
+                        font-family: Arial, sans-serif;
+                        font-size: 16px;
+                        font-weight: normal;
+                        text-align: left;
+                    }
+                </code></pre>
+            </div></td>
+        </tr>
+        <!-- Margins and Padding -->
+        <tr>
+            <td>
+                <h4>Margins and Padding</h4>
+            </td>
+            <td>
+                <p class="Table text">Margins and padding help control spacing around and inside elements.</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div id="code">
+                    <!-- CSS Code for "Margins and Padding" -->
+                    <pre><code>
+                    .container {
+                        margin: 20px;
+                        padding: 10px;
+                    }
+                    </code></pre>
+                </div>
+            </td>
+        </tr>
+        <!-- Footer -->
+         <tr>
+            <td>
+                <h4>Borders</h4>
+            </td>
+            <td>
+                <p>Borders define the outline of an element and can be customized with styles, widths, and colors.</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div id="code">
+                    <!-- CSS Code for "Borders" -->
+                    <pre><code>
+                    .box {
+                        border: 2px solid black;
+                        border-radius: 5px;
+                    }
+                    </code></pre>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+    </table>
+    <div class="text">
+        <p>If you want more tips and tricks, please visit here to explore advanced techniques and enhance your web development skills!</p>
+    </div>
+    <footer>
+        <p>© 2024 "Dev_Brad" Cheat Sheet. All rights reserved.</p>
+        <p>Need more resources? Visit my <a id="website" href="https://bradroode.com">website</a> or contact us at roodeb@gmail.com</p>
+    </footer>
+</body>
+</html>
